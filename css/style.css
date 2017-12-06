@@ -14,7 +14,8 @@
 h1 {
 	font-family: 'Raleway', sans-serif;
 	line-height: 35px;
-	padding-top: 10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	font-weight: lighter;
 	color: #517281;
 }
@@ -100,7 +101,7 @@ div.sidebar > ul > li > a:hover {
 	height: 40%;
 	margin: 0 auto;
 	position: relative;
-	top: 10%;
+	top: 30%;
 	text-align: center;
 	line-height: 10px;
 }
@@ -238,3 +239,14 @@ footer >p {
   .prev, .next,.text {font-size: 11px}
 }
 
+#toggleIcon,
+#toggleIcon1 {
+	background-color: red;
+	position: fixed;
+	top: 0;
+	left: 200px;
+	padding: 15px;
+	z-index: 1;
+	color: white;
+	font-size: 2em;
+}
