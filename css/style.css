@@ -80,11 +80,16 @@ div.sidebar > ul > li > a:hover {
 	position: relative;
 	top: 0;
 	margin-left: 20%;
+	background-image: url(../img/about-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .home {
-	background-color: #F4D27A;
+	background-color: rgba(244, 210, 122, 0.7);
 	height: 300px;
+	
 }
 
 
@@ -102,22 +107,23 @@ div.sidebar > ul > li > a:hover {
 
 .about {
 	height: 300px;
-	background-color: #F68D5C;
+	background-color: rgba(246, 141, 92, 0.7);
+		
 }
 
 .services {
 	height: 300px;
-	background-color: #F37257;
+	background-color: rgba(243, 114, 87, 0.7);
 }
 
 .projects {
 	height: 300px;
-	background-color: #F4D27A;
+	background-color: rgba(244, 210, 122, 0.7);
 }
 
 .gallery {
 	height: 300px;
-	background-color: #F68D5C;
+	background-color: rgba(246, 141, 92, 0.7);
 }
 
 h3 {
