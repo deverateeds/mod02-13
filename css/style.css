@@ -43,6 +43,7 @@ h2 {
 img {
 	background-color: grey;
 	margin: 0 auto;
+	border: 1px solid rgba(243, 114, 87, 1);
 	
 }
 
@@ -67,11 +68,11 @@ div.sidebar > ul > li > a {
 	width: 150px;
 	margin-right: 20px;*/
 	font-family: 'Open Sans', sans-serif;
-	color:  #F4D27A;
+	color:  rgba(246, 141, 92, 1);
 }
 
 div.sidebar > ul > li > a:hover {
-	color: #F37257;
+	color: rgba(243, 114, 87, 1);
 }
 
 .rightSide {
@@ -112,7 +113,7 @@ div.sidebar > ul > li > a:hover {
 		
 }
 
-.services {
+.places {
 	height: 300px;
 	background-color: rgba(243, 114, 87, 0.7);
 }
@@ -244,9 +245,13 @@ footer >p {
 	background-color: red;
 	position: fixed;
 	top: 0;
-	left: 200px;
+	left: 20%;
 	padding: 15px;
 	z-index: 1;
 	color: white;
 	font-size: 2em;
+}
+
+#toggleIcon1 {
+	left: 0;
 }
